@@ -4,6 +4,7 @@ function displayRamens() {
         { id: 2, name: "Miso Ramen", restaurant: "Menya", image: "/home/christine/Pictures/miso-chicken-ramen-XL-RECIPE1217-96952c0ec830414d961a39ce21af924e.jpg", rating: 4, comment: "Very flavorful!" },
         { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "/home/christine/Pictures/tonkotsu.jpg" },
         { id: 4, name: "chicken ramen", restaurant: "ichiran", image: "/home/christine/Pictures/Chicken-Ramen-in-a-bowl.jpg" },
+        { id: 5, mame:"japanese ramen", restaurant: "Ramen-ya", image: "/home/christine/Pictures/Ramen-Japanese-Soup.jpg" },
      ];
 
     const ramenMenu = document.getElementById("ramen-menu");
