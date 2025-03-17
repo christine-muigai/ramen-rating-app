@@ -11,29 +11,23 @@ body {
 
 #ramen-menu {
     display: flex;
-    gap: 15px;
+    align-items: center; 
+    gap: 5px; 
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-#ramen-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers images */
-    gap: 8px; /* Adds space between images */
+    margin-bottom: 15px;
 }
 
 #ramen-menu img {
-    width: 40px; /* Slightly larger for better visibility */
-    height: 40px;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 #ramen-menu img:hover {
@@ -43,34 +37,34 @@ body {
 
 #ramen-detail {
     background-color: #fff;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 50%;
+    text-align: center; 
 }
 
 #ramen-detail img {
-    width: 50px;
+    width: 80px; 
     border-radius: 10px;
     margin-top: 10px;
 }
 
 #ramen-detail h2 {
     color: #d9534f;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 #ramen-detail h3 {
     color: #5a5a5a;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #ramen-detail p {
-    font-size: 16px;
+    font-size: 14px;
     color: #333;
 }
 
-/* Form Styles */
 #new-ramen-form {
     background-color: #fff;
     padding: 20px;
