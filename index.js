@@ -1,20 +1,9 @@
 function displayRamens() {
     const ramens = [
-        { 
-            name: "Tonkotsu", 
-            image: "https://example.com/tonkotsu.jpg", 
-            restaurant: "Ichiran", 
-            rating: 5, 
-            comment: "Rich and creamy broth!" 
-        },
-        { 
-            name: "Shoyu", 
-            image: "https://example.com/shoyu.jpg", 
-            restaurant: "Ramen House", 
-            rating: 4, 
-            comment: "Perfect balance of flavors." 
-        }
-    ];
+        { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "shoyu.jpg", rating: 5, comment: "Delicious!" },
+        { id: 2, name: "Miso Ramen", restaurant: "Menya", image: "miso.jpg", rating: 4, comment: "Very flavorful!" },
+        { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "tonkotsu.jpg" }
+     ];
 
     const ramenMenu = document.getElementById("ramen-menu");
     ramenMenu.innerHTML = ""; 
