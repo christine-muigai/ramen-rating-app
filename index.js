@@ -2,7 +2,8 @@ function displayRamens() {
     const ramens = [
         { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "/home/christine/Pictures/aapi-ramen-dishes-inline-4-cz-2x1-240423-c9a405.jpg", rating: 5, comment: "Delicious!" },
         { id: 2, name: "Miso Ramen", restaurant: "Menya", image: "/home/christine/Pictures/miso-chicken-ramen-XL-RECIPE1217-96952c0ec830414d961a39ce21af924e.jpg", rating: 4, comment: "Very flavorful!" },
-        { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "/home/christine/Pictures/tonkotsu.jpg" }
+        { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "/home/christine/Pictures/tonkotsu.jpg" },
+        { id: 4, name: "chicken ramen", restaurant: "ichiran", image: "/home/christine/Pictures/Chicken-Ramen-in-a-bowl.jpg" },
      ];
 
     const ramenMenu = document.getElementById("ramen-menu");
